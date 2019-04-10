@@ -1,0 +1,13 @@
+The most viewed articles are:
+    Candidate is jerk, alleges rival Views: 338647
+    Bears love berries, alleges bear Views: 253801
+    Bad things gone, say good people Views: 170098
+
+Authors and current view counts are:
+    Ursula La Multa Views: 507594
+    Rudolf von Treppenwitz Views: 423457
+    Anonymous Contributor Views: 170098
+    Markoff Chaney Views: 84557
+
+Dates on which the error rate exceeded 1%:
+    Date: 2016-07-17 Error Rate: 2.26%
