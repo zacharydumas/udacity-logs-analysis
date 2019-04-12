@@ -6,7 +6,7 @@ It answers the questions:
 * On which dates the the users encounter errors on more than 1% of connections?
 
 ------------------------------
-##Prerequisites
+## Prerequisites
 * [VirtualBox](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1)
 ** Install the version for your operating system. You do not need to launch VirtualBox after running it
 * [Vagrant](https://www.vagrantup.com/downloads.html)
