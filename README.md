@@ -28,7 +28,7 @@ Logreader.py should be placed in the "vagrant" directory, which is shared with y
 * `cd` to the location of your Vagrant VM.
 * log into vagrant with `vagrant ssh`.
 * `cd` to the location of your `vagrant` directory.
-*run logreader with 
+* run logreader with 
 	`python logreader.py` 
 	or 
 	`./logreader.py`.
