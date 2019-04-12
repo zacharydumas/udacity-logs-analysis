@@ -8,17 +8,17 @@ It answers the questions:
 ------------------------------
 ## Prerequisites
 * [VirtualBox](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1)
- * Install the version for your operating system. You do not need to launch VirtualBox after running it
+	* Install the version for your operating system. You do not need to launch VirtualBox after running it
 * [Vagrant](https://www.vagrantup.com/downloads.html)
- * Install the version for your operating system.
- * If the installer asks you to grant network permissions or make a firewall exeption, be sure to allow this.
+	* Install the version for your operating system.
+	* If the installer asks you to grant network permissions or make a firewall exeption, be sure to allow this.
 * Install the VM configuration.
- * Download [FSND-Virtual-Machine.zip](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip)
- * Unzip the file and `cd` into its directory and `cd` into the vagrant directory.
- * run the command `vagrant up` to install the Linux virtual machine.
+	* Download [FSND-Virtual-Machine.zip](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip)
+	* Unzip the file and `cd` into its directory and `cd` into the vagrant directory.
+	* run the command `vagrant up` to install the Linux virtual machine.
 * [newsdata.sql](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
- * Unzip newsdata.sql and copy it into the `vagrant` directory, which is shared with your virtual machine.
- * `cd` into the `vagrant` directory and run the command `psql -d news -f newsdata.sql` to populate the database.
+	* Unzip newsdata.sql and copy it into the `vagrant` directory, which is shared with your virtual machine.
+	* `cd` into the `vagrant` directory and run the command `psql -d news -f newsdata.sql` to populate the database.
 ------------------------------
 ## Installation
 Logreader.py should be placed in the "vagrant" directory, which is shared with your virtual machine.
