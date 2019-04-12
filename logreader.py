@@ -3,9 +3,14 @@
 # Displays various statistics about website usage
 
 import psycopg2
+import sys
 
-conn = psycopg2.connect("dbname=news")
-cursor = conn.cursor()
+try:
+    conn = psycopg2.connect("dbname=news")
+    cursor = conn.cursor()
+except:
+    print("Error: Unable to connect to the database")
+    sys.exit(1)
 
 # display the three most popular articles of all time and their views
 request = """
